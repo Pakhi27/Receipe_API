@@ -1,0 +1,105 @@
+/* .container{
+    width:100%;
+    max-width:100vh;
+    background:grey;
+} */
+body{
+    background-color: #222;
+}
+
+.receipe{
+    width:100%;
+    max-width:500px;
+    background:linear-gradient(145deg,yellow,green);
+    color:black;
+    margin:100px auto 0;
+    border-radius:20px;
+    padding:40px 35px;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+}
+.receipe h1{
+    margin-top:10px;
+}
+.row{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    border-radius:30px;
+}
+.row input{
+    border:0;
+    outline:0;
+    background:#ebfffc;
+    color:#555;
+    padding:10px 25px;
+    height:60px;
+    border-radius:30px;
+    flex:1;
+    margin-right: 16px;
+    font-size:18px;
+}
+.row button{
+    border:0;
+    outline:0;
+    background:#ebfffc;
+    border-radius:50%;
+    width:60px;
+    height:60px;
+    cursor:pointer;
+}
+.label{
+    font-size:20px;
+    font-style:italic;
+    font-weight:1000;
+    color:black;
+    margin-top:20px;
+    margin-right:30px;
+}
+.image{
+    margin-top:30px;
+    border-radius:30px;
+    margin-right:30px;
+}
+.Column{
+    display:flex;
+}
+.cusionType,.dishType{
+    color:black;
+    font-style:italic;
+    font-weight:500;
+    font-size:20px;
+    margin-top:20px;
+}
+.cusionType{
+    margin-left:100px;
+}
+.dishType{
+    margin-left:120px;
+}
+.error{
+    text-align:left;
+    margin-left:10px;
+    font-size:14px;
+    margin-top:10px;
+    display:none;
+}
+.btn2{
+    border:0;
+    outline:0;
+    background:#ebfffc;
+    border-radius:3px;
+    width:120px;
+    height:50px;
+    cursor:pointer;
+    font-size:16px;
+    color:#222;
+    margin-top:50px;
+}
+.Column1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+}
